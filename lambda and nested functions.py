@@ -10,7 +10,7 @@ def hello():
     # func = lambda y, z: y+z
     # print(func(2, 3))
 
-    return 'Hello, '+x+'!'
+    return 'Hello, ' + x + '!'
 
 
 print(hello())
