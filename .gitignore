@@ -1,0 +1,6 @@
+# virtual environment
+*venv
+
+# binary python files
+*__pycache__
+
