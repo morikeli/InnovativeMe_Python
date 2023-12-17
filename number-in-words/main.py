@@ -12,14 +12,17 @@ from number_examples.numbers import numbers_dict
 def number_in_words(number, _word=''):
     """ 
         This is a function that prints out a number in its word equivalent.
-        For example,
-            1 is one,
-            2 is two,
-            3 is three
-            100 is hundred
-            250 is two hundred and fifty
-            375 is three hundred and seventy five
-            1000 is thousand
+        
+        # Examples
+        --------------
+        
+           - 1 is `one`,
+           - 2 is `two`,
+           - 3 is `three`
+           - 100 is `hundred`
+           - 250 is `two hundred and fifty`
+           - 375 is `three hundred and seventy five`
+           - 1000 is `thousand`
     """
     
     if int(number) in numbers_dict:    # check if the number exists in numbers_dict
